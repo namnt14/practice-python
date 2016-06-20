@@ -9,9 +9,10 @@ def user_input_list():
 
     return l
     
-def less_than_five():
+def less_than():
 
     l = user_input_list()
+    num = int(input("Choose a number to compare:"))
     for element in l:
-        if (element <= 5):
+        if (element <= num):
             print(element, end=" ", flush=True)
