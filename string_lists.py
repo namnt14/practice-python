@@ -84,7 +84,7 @@ def string_lists():
     string = str(input("Enter a string:"))
     string = remove_special_characters1(string)
     if is_Palindrome(string):
-        print("Yes, this string is a palindrom")
+        print("Yes, this string is a palindrome")
     else:
-        print("No, this string is NOT a palindrom") 
+        print("No, this string is NOT a palindrome") 
         
